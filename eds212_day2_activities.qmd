@@ -32,3 +32,12 @@ a <- 1.2
 eval (dp_da)
 ```
 
+
+```{r}
+ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) + geom_point(aes(color = species)) 
+```
+
+```{r}
+ggplot(data = penguins, aes(x= species, y = flipper_length_mm )) + geom_jitter(aes(color = species))
+```
+
